@@ -121,6 +121,9 @@ DESPUÉS (con IA): JIRA ticket → Claude Code → scripts en horas → reporte 
 - Node.js 18+
 - Claude Code instalado (`npm install -g @anthropic-ai/claude-code`)
 
+**IMPORTANTE: Si tienes sistena operativo windows, debes descargar primero del Docker Desktop y abrirlo para que inicializar el motor de docket antes de ejecutar los comandos para levantar los servicios
+
+
 **Setup:**
 ```bash
 # Clonar el laboratorio
@@ -129,6 +132,8 @@ cd Learning-Performance-Observability-Stack
 
 # Levantar todos los servicios
 docker compose up -d
+
+
 
 # Verificar health de los 5 microservicios
 curl http://localhost:3001/health/live      # users-api
