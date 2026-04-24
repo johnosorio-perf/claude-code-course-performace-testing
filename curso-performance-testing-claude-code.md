@@ -143,6 +143,24 @@ curl http://localhost:3004/health/live      # orders-service
 curl http://localhost:3005/health/live      # payments-service
 ```
 
+Todos los servicios que se levantan
+ ✔ Container cart-db 
+ ✔ Container loki
+ ✔ Container users-db
+ ✔ Container tempo
+ ✔ Container products-db
+ ✔ Container payments-db
+ ✔ Container orders-db
+ ✔ Container promtail
+ ✔ Container products-service
+ ✔ Container users-api
+ ✔ Container cart-service
+ ✔ Container orders-service
+ ✔ Container payments-service
+ ✔ Container prometheus
+ ✔ Container users-front
+ ✔ Container grafana
+
 **Checkpoint visual:**
 - Grafana en http://localhost:3000 (admin/admin)
 - Dashboards disponibles:
